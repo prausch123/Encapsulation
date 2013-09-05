@@ -8,9 +8,9 @@ package lab2;
  *
  * @author Peter
  */
-public class Startup {
+public interface Monster {
+   
+    public abstract void setMonsterMaxHealth(int health);
     
-    public static void main(String[] args) {
-        Game g = new Game();
-    }
+    public abstract int getMonsterMaxHealth();
 }
