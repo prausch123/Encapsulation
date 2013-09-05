@@ -10,4 +10,16 @@ package lab2;
  */
 public class GameWorld {
     
+    public GameWorld() {
+        createMonsters();
+    }
+    
+    private void createMonsters() {
+        createBoars();
+    }
+    
+    private void createBoars() {
+        Monster boar1 = new WildBoar("Boar 1");
+        boar1.setMonsterMaxHealth(100);
+    }
 }
