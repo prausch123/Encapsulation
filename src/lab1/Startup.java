@@ -11,9 +11,12 @@ package lab1;
 public class Startup {
     public static void main(String[] args) {
         Employee employee = new Employee();
-        employee.firstName = "Peter";
-        employee.lastName = "Piper";
-        employee.ssn = "333-1234";
+        //employee.firstName = "Peter";     OLD
+        employee.setFirstName("Peter");
+        //employee.lastName = "Piper";      OLD
+        employee.setLastName("Piper");
+        //employee.ssn = "333-1234";        OLD
+        employee.setSsn("333-1234");
         
         employee.meetDepartmentStaff();
         employee.meetWithHrForBenefitAndSalryInfo();
