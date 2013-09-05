@@ -26,7 +26,7 @@ public class Data {
     }
     
     public int numRows() {
-        return emptyRow - 1;
+        return emptyRow;
     }
     
     public String getPartNumber(int index) {
@@ -55,14 +55,14 @@ public class Data {
     }
    
     public void updatePartNum(int index, String num) {
-        
+        partNums[index] = num;
     }
     
     public void updatePartDescs(int index, String desc) {
-        
+        partDescs[index] = desc;
     }
     
     public void updatePartPrice(int index, double price) {
-        
+        partPrices[index] = price;
     }
 }

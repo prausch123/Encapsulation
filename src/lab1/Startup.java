@@ -17,11 +17,7 @@ public class Startup {
         employee.setLastName("Piper");
         //employee.ssn = "333-1234";        OLD
         employee.setSsn("333-1234");
-        
-        employee.meetDepartmentStaff();
-        employee.meetWithHrForBenefitAndSalryInfo();
-        employee.reviewDeptPolicies();
-
+       
         System.out.println("The employee's status is: " + employee.getStatus());
     }
     
